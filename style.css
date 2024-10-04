@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'outfit';
+}
+.image img{
+    width: 100%;
+    padding: 0;
+}
+.intro {
+    padding: 0 30px;
+}
+.intro h1 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+.intro p {
+    font-size: 16px;
+    font-family: 'outfit';
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+.time {
+    margin: 0 25px;
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 16px;
+    font-family: 'outfit';
+
+}
+.time h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.time ul {
+    padding: 0 20px;
+}
+.time ul li {
+    padding: 6px 15px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+.time ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.time span {
+    font-weight: 700;
+    color: hsl(30, 10%, 34%)
+}
+.ingredients {
+    padding: 25px;
+}
+.ingredients h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'young serif';
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.ingredients ul {
+    padding: 0 20px;
+    
+}
+.ingredients ul li {
+    padding: 6px 25px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+hr {
+    margin: 0 25px;
+    border-top: 0.5px solid hsl(30, 18%, 87%);
+}
+.instructions {
+    padding: 25px;
+}
+.instructions h1 {
+    font-family: 'young serif';
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 25px;
+}
+.instructions span {
+    font-weight: 700;
+    color: hsl(30, 10%, 34%)
+}
+.instructions ol {
+    padding: 0 25px;
+}
+.instructions ol li {
+    padding: 6px 20px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+.instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.nutrition {
+    padding: 25px;
+}
+.nutrition h1 {
+    font-family: 'young serif';
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 25px;
+}
+.nutrition p {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 25px;
+}
+.nutrition span {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+.nutrition table {
+    width: 100%;
+    text-align: left;
+    /* padding-left: 15%; */
+    color: hsl(30, 10%, 34%);
+    align-items: center;
+
+}
+.nutrition table tr td:last-child {
+    text-align: left;
+}
+.nutrition td{
+    padding: 10px;
+    border-bottom: 0.5px solid hsl(30, 10%, 34%);
+}
+@media screen and (min-width:1440px) {
+    .image {
+        border-radius: 20px;
+        padding: 50px;
+
+    }
+    .image img {
+        border-radius: 20px;
+        /* padding: 50px; */
+    }
+    .intro {
+        padding: 0 50px;
+    }
+    .intro h1 {
+        padding-bottom: 25px;
+        text-align: left;
+        font-size: 80px;
+    }
+    .intro p {
+        font-size: 30px;
+        width: 1200px;
+        line-height: 50px;
+        padding-bottom: 40px;
+    }
+
+    .time {
+        margin: 0 50px;
+        padding: 30px;
+        border-radius: 16px;
+    
+    }
+    .time h3 {
+        font-size: 35px;
+    }
+    .time ul {
+        padding: 0 30px;
+    }
+    .time ul li {
+        padding: 8px 35px;
+        font-size: 20px;
+    }
+    .ingredients {
+        padding: 50px;
+    }
+    .ingredients h1 {
+        font-size: 35px;
+    }
+    .ingredients ul {
+        padding: 0 30px;
+        
+    }
+    .ingredients ul li {
+        font-size: 20px;
+    }
+
+    hr {
+        margin: 0 50px;
+        border-top: 1px solid hsl(30, 18%, 87%);
+    }
+    .instructions {
+        padding: 50px;
+    }
+    .instructions h1 {
+        font-size: 35px;
+    }
+    .instructions span {
+        font-weight: 700;
+        color: hsl(30, 10%, 34%)
+    }
+    .instructions ol {
+        padding: 0 30px;
+    }
+    .instructions ol li {
+        padding: 8px 30px;
+        font-size: 20px;
+    }
+    .instructions ol li::marker {
+        color: hwb(14 20% 48%);
+        font-weight: bolder;
+    }
+
+    .nutrition {
+        padding: 50px;
+    }
+    .nutrition h1 {
+        font-size: 35px;
+    }
+    .nutrition p {
+        font-size: 20px;
+    }
+    .nutrition td{
+        padding: 20px;
+    }
+    .nutrition span {
+        font-size: larger;
+    }
+    .nutrition table {
+        font-size: larger;
+    }
+}
+
+
